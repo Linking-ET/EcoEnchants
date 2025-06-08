@@ -1,5 +1,5 @@
-display-name: "Crit Luck"
-description: "Gives &a+%placeholder%&r %ecoskills_crit_chance_name%"
+display-name: "暴击率"
+description: "赋予 &a+%placeholder%%&r %ecoskills_crit_chance_name%"
 placeholder: "4 * %level%"
 type: normal
 

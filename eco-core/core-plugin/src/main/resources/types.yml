@@ -1,13 +1,13 @@
-# Enchantment types are like categories.
-# They have a color that shows in lore, they have an optional limit
-# as to how many of a certain type can be on any item, et cetera.
+# 附魔类型类似于分类。
+# 它们在物品说明中显示颜色，它们有一个可选的限制
+# 即任何物品上可以有多少个某种类型的附魔，等等。
 
 types:
-  - id: normal # The ID of the type
-    format: "&7" # The format of enchantments of this type in display
-    limit: -1 # The maximum amount of enchants of this type on an item (-1 to disable)
-    high-level-bias: 0 # The bias against getting high levels of enchants with this type. Between 0-1, 0 is no bias, 1 is only level 1.
-    no-grindstone: false # If enchants of this type should not be removable in the grindstone
+  - id: normal # 该类型的ID
+    format: "&7" # 这种类型的附魔在显示时的格式
+    limit: -1 # 物品上该类型的附魔最大数量（-1表示无限制）
+    high-level-bias: 0 # 获取该类型的高等级附魔的倾向。0到1之间，0表示无倾向，1表示仅1级。
+    no-grindstone: false # 如果该类型的附魔不应在砂轮上被移除
 
   - id: curse
     format: "&c"

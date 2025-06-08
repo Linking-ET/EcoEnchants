@@ -1,5 +1,5 @@
-display-name: "Petkeeper"
-description: "Gives a &a%placeholder%%&r boost to pet experience"
+display-name: "宠物管理员"
+description: "提高 &a%placeholder%%&r 的宠物经验加成"
 placeholder: "%level%"
 type: normal
 

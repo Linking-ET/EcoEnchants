@@ -1,5 +1,5 @@
-display-name: "Sparks"
-description: "Hooking onto enemies during storms gives a &a%chance%%&r chance to strike lightning dealing &a%damage%&r damage"
+display-name: "电闪雷鸣"
+description: "在风暴中钩住敌人有 &a%chance%%&r 的几率引发雷电，造成 &a%damage%&r 伤害"
 placeholders:
   damage: "1 + %level%"
   chance: "25 + 5 * %level%"
@@ -21,7 +21,6 @@ effects:
         args:
           damage: "1 + 1 * %level%"
           silent: true
-
       - id: particle_animation
         args:
           particle: electric_spark
@@ -36,13 +35,10 @@ effects:
             duration: 25
         mutators:
           - id: location_to_victim
-
     args:
       chance: "25 + 5 * %level%"
     triggers:
       - catch_entity
 
-
 conditions:
   - id: is_storm
-

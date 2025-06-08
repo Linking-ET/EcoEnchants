@@ -1,5 +1,5 @@
-display-name: "Finishing"
-description: "Increases damage dealt by &a%placeholder%%&r for each percent of health missing on your opponent"
+display-name: "终结"
+description: "目标每缺少一个百分点的生命值，增加 &a%placeholder%%&r 的伤害"
 placeholder: "0.2 * %level%"
 type: normal
 

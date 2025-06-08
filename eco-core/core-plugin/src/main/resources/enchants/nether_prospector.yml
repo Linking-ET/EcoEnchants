@@ -1,5 +1,5 @@
-display-name: "Nether Prospector"
-description: "Gives a &a%placeholder%%&r boost to ancient debris drops"
+display-name: "下界勘探者"
+description: "增加残骸掉落的 &a%placeholder%%&r "
 placeholder: "ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)"
 type: normal
 
@@ -25,5 +25,3 @@ effects:
       player_placed: false
     triggers:
       - block_item_drop
-
-conditions: [ ]

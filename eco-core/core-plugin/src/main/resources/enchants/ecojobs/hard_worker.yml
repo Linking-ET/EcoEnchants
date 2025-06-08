@@ -1,5 +1,5 @@
-display-name: "Hard Worker"
-description: "Gives a &a%placeholder%%&r boost to job experience"
+display-name: "勤劳工作者"
+description: "提高 &a%placeholder%%&r 的职业经验加成"
 placeholder: "%level% * 2"
 type: normal
 

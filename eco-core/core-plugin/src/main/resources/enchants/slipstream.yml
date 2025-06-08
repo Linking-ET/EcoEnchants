@@ -1,5 +1,5 @@
-display-name: "Slipstream"
-description: "Gives a &a%placeholder%%&r boost to movement speed while holding"
+display-name: "滑流"
+description: "手持时增加 &a%placeholder%%&r 的移动速度"
 placeholder: "%level% * 8"
 type: normal
 
@@ -17,5 +17,3 @@ effects:
   - id: movement_speed_multiplier
     args:
       multiplier: "1 + %level% * 0.08"
-
-conditions: [ ]

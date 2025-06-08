@@ -1,5 +1,5 @@
-display-name: "Stimulating"
-description: "Gives a &a%bonus%%&r bonus to all stats for &a%seconds%&r seconds"
+display-name: "刺激"
+description: "在 &a%seconds%&r 秒内给予所有属性 &a%bonus%%&r 的加成"
 placeholders:
   bonus: "10 * %level%"
   seconds: "3 * %level%"

@@ -1,5 +1,5 @@
-display-name: "Tripleshot"
-description: "Shoot 3 arrows instead of 1"
+display-name: "三重射击"
+description: "一次性射出3支箭而非1支"
 type: normal
 
 targets:

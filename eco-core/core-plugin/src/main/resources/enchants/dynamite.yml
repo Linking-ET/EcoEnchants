@@ -1,5 +1,5 @@
-display-name: "Dynamite"
-description: "Mines blocks in a &a%placeholder%x%placeholder%&r area"
+display-name: "爆破"
+description: "在 &a%placeholder%x%placeholder%&r 的区域内挖掘方块"
 placeholder: "1 + %level% * 4"
 type: spell
 
@@ -43,4 +43,4 @@ effects:
     triggers:
       - click_block
 
-conditions: []
+conditions: [ ]

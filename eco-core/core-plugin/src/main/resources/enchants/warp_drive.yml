@@ -1,5 +1,5 @@
-display-name: "Warp Drive"
-description: "Hitting your opponent with an arrow teleports you to them"
+display-name: "箭跃"
+description: "用箭矢击中对手时，将你传送到他们身边"
 placeholder: "%level%"
 type: special
 

@@ -1,5 +1,5 @@
-display-name: "Stamina"
-description: "Decreases sprinting hunger loss by &a%placeholder%%"
+display-name: "耐力"
+description: "减少冲刺时的饥饿度损失 &a%placeholder%%"
 placeholder: "%level% * 20"
 type: normal
 
@@ -17,6 +17,6 @@ effects:
   - id: hunger_multiplier
     args:
       multiplier: "1 - %level% * 0.2"
-
+      
 conditions:
   - id: is_sprinting

@@ -4,6 +4,18 @@
   <br>
 </h1>
 
+---
+> **EcoEnchants_CN**
+
+EcoEnchants汉化
+-
+[README_CN](https://github.com/Linking-ET/EcoEnchants/blob/master/eco-core/core-plugin/src/main/resources/README.md)
+
+汉化版本基于[koicarpya/EcoEnchants_zh_CN](https://github.com/koicarpya/EcoEnchants_zh_CN)
+
+本仓库仅做~~搬运/~~合并/构建，有汉化建议欢迎前往汉化仓库提交意见
+
+---
 <h4 align="center">Source code for EcoEnchants, a premium spigot plugin.</h4>
 
 <p align="center">

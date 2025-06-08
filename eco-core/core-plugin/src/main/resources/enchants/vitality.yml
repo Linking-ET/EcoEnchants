@@ -1,5 +1,5 @@
-display-name: "Vitality"
-description: "Puts you back on max health"
+display-name: "生命复苏"
+description: "恢复满血状态"
 type: spell
 
 targets:

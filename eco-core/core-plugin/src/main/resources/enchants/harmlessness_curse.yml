@@ -1,5 +1,5 @@
-display-name: "Curse of Harmlessness"
-description: "Gives a &a%placeholder%% &rchance for attacks to do nothing"
+display-name: "攻击免疫"
+description: "有 &a%placeholder%%&r 的几率使攻击无效"
 placeholder: "15 * %level%"
 type: curse
 
@@ -21,4 +21,4 @@ effects:
     triggers:
       - melee_attack
 
-conditions: []
+conditions: [ ]

@@ -1,5 +1,5 @@
-display-name: "Telekinesis"
-description: "Drops and experience go directly into your inventory"
+display-name: "自动拾取"
+description: "物品和经验直接进入背包"
 type: normal
 
 targets:

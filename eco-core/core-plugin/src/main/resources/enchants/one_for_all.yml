@@ -1,5 +1,5 @@
-display-name: "One for All"
-description: "Increases damage by &a%placeholder%%&r but conflicts with all other enchantments"
+display-name: "团结就是力量"
+description: "增加伤害 &a%placeholder%%&r ，但与其他所有附魔冲突"
 placeholder: "500"
 type: special
 
@@ -21,5 +21,3 @@ effects:
       multiplier: 5
     triggers:
       - melee_attack
-
-conditions: [ ]

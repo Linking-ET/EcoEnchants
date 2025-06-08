@@ -1,5 +1,5 @@
-display-name: "Rumble"
-description: "Gives &a%damage%&r damage to all entities in a &a%radius%&r block radius"
+display-name: "震动"
+description: "对所有实体造成 &a%damage%&r 伤害，并在 &a%radius%&r 块范围内"
 placeholders:
   radius: "2 + %level%"
   damage: "3 * %level%"
@@ -23,13 +23,11 @@ effects:
           radius: "2 + %level%"
           damage_as_player: false
           damage_self: false
-
       - id: play_sound
         args:
           sound: entity_ender_dragon_growl
           pitch: 1
           volume: 1
-
     args:
       cooldown: 40
       send_cooldown_message: true

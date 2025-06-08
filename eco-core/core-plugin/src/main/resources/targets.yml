@@ -1,5 +1,5 @@
-# These are extra items that cannot normally be enchanted in an enchanting table,
-# add items to this list to be able to enchant them.
+# 这些是通常不能在附魔台中被附魔的额外物品，
+# 将物品添加到此列表中，以便能够对它们进行附魔。
 
 extra-enchantable-items:
   - "*elytra"
@@ -9,19 +9,18 @@ extra-enchantable-items:
   - "*carrot_on_a_stick"
   - "*player_head"
 
-# A target consists of items and a slot.
+# 目标由物品和槽位组成。
 
-# The options for slot are mainhand, offhand, hands, helmet, chestplate,
-# leggings, boots, armor, any, a number from 0-40 (to specify an exact slot),
-# or a list of slots like "9, 10, 11, mainhand"
+# 槽位的选项有主手(mainhand)、副手(offhand)、双手(hands)、头盔(helmet)、胸甲(chestplate)、
+# 护腿(leggings)、靴子(boots)、护甲(armor)、任意(any)、0-40之间的数字（指定确切的槽位），
+# 或者是槽位列表，如 "9, 10, 11, mainhand"
 
-# The slot defines when the enchantment will activate, for example if you have
-# a target with slot "mainhand", the enchantment will activate whenever the item is
-# in your mainhand.
+# 槽位定义了附魔何时激活，例如，如果你有一个槽位为 "mainhand" 的目标，
+# 那么当物品在你的主手中时，附魔就会激活。
 
 targets:
   - id: pickaxe
-    display-name: "Pickaxes"
+    display-name: "镐"
     slot: mainhand
     items:
       - "*wooden_pickaxe"
@@ -32,7 +31,7 @@ targets:
       - "*netherite_pickaxe"
 
   - id: axe
-    display-name: "Axes"
+    display-name: "斧"
     slot: mainhand
     items:
       - "*wooden_axe"
@@ -43,7 +42,7 @@ targets:
       - "*netherite_axe"
 
   - id: hoe
-    display-name: "Hoes"
+    display-name: "锄"
     slot: mainhand
     items:
       - "*wooden_hoe"
@@ -54,7 +53,7 @@ targets:
       - "*netherite_hoe"
 
   - id: shovel
-    display-name: "Shovels"
+    display-name: "锹"
     slot: mainhand
     items:
       - "*wooden_shovel"
@@ -65,7 +64,7 @@ targets:
       - "*netherite_shovel"
 
   - id: sword
-    display-name: "Swords"
+    display-name: "剑"
     slot: mainhand
     items:
       - "*wooden_sword"
@@ -76,7 +75,7 @@ targets:
       - "*netherite_sword"
 
   - id: helmet
-    display-name: "Helmets"
+    display-name: "头盔"
     slot: armor
     items:
       - "*turtle_helmet"
@@ -88,7 +87,7 @@ targets:
       - "*netherite_helmet"
 
   - id: chestplate
-    display-name: "Chestplates"
+    display-name: "胸甲"
     slot: armor
     items:
       - "*leather_chestplate"
@@ -99,7 +98,7 @@ targets:
       - "*netherite_chestplate"
 
   - id: leggings
-    display-name: "Leggings"
+    display-name: "护腿"
     slot: armor
     items:
       - "*leather_leggings"
@@ -110,7 +109,7 @@ targets:
       - "*netherite_leggings"
 
   - id: boots
-    display-name: "Boots"
+    display-name: "靴子"
     slot: armor
     items:
       - "*leather_boots"
@@ -121,7 +120,7 @@ targets:
       - "*netherite_boots"
 
   - id: armor
-    display-name: "Armor"
+    display-name: "护甲"
     slot: armor
     items:
       - "*leather_boots"
@@ -151,61 +150,61 @@ targets:
       - "*netherite_chestplate"
 
   - id: trident
-    display-name: "Tridents"
+    display-name: "三叉戟"
     slot: mainhand
     items:
       - "*trident"
 
   - id: bow
-    display-name: "Bows"
+    display-name: "弓"
     slot: mainhand
     items:
       - "*bow"
 
   - id: crossbow
-    display-name: "Crossbows"
+    display-name: "十字弩"
     slot: mainhand
     items:
       - "*crossbow"
 
   - id: shears
-    display-name: "Shears"
+    display-name: "剪刀"
     slot: mainhand
     items:
       - "*shears"
 
   - id: shield
-    display-name: "Shields"
+    display-name: "盾牌"
     slot: hands
     items:
       - "*shield"
 
   - id: fishing_rod
-    display-name: "Fishing Rods"
+    display-name: "钓鱼竿"
     slot: mainhand
     items:
       - "*fishing_rod"
 
   - id: flint_and_steel
-    display-name: "Flint and Steels"
+    display-name: "打火石"
     slot: mainhand
     items:
       - "*flint_and_steel"
 
   - id: carrot_on_a_stick
-    display-name: "Carrots on Sticks"
+    display-name: "胡萝卜钓竿"
     slot: mainhand
     items:
       - "*carrot_on_a_stick"
 
   - id: elytra
-    display-name: "Elytra"
+    display-name: "鞘翅"
     slot: armor
     items:
       - "*elytra"
 
   - id: mace
-    display-name: "Mace"
+    display-name: "权杖"
     slot: mainhand
     items:
       - "*mace"

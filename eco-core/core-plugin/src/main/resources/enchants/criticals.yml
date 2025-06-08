@@ -1,5 +1,5 @@
-display-name: "Criticals"
-description: "Increases critical damage by &a%placeholder%%"
+display-name: "暴伤提升"
+description: "暴击伤害增加 &a%placeholder%%"
 placeholder: "10 * %level%"
 type: normal
 

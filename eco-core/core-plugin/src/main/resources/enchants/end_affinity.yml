@@ -1,5 +1,5 @@
-display-name: "End Affinity"
-description: "Increases damage dealt in the end by &a%placeholder%%"
+display-name: "末地之力"
+description: "在末地增加 &a%placeholder%%&r 的伤害"
 placeholder: "20 + %level% * 10"
 type: normal
 

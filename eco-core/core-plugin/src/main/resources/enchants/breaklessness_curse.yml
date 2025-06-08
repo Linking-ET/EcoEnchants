@@ -1,5 +1,5 @@
-display-name: "Curse of Breaklessness"
-description: "Gives a &a%placeholder%%&r chance to fail to break blocks"
+display-name: "破坏诅咒"
+description: "有 &a%placeholder%%&r 的几率使对手无法破坏方块"
 placeholder: "15 * %level%"
 type: curse
 
@@ -23,4 +23,4 @@ effects:
     triggers:
       - mine_block
 
-conditions: []
+conditions: [ ]

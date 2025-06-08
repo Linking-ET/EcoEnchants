@@ -1,5 +1,5 @@
-display-name: "Metabolism"
-description: "Increases the hunger gained by eating food by &a%placeholder%%"
+display-name: "新陈代谢"
+description: "通过进食获得的饥饿度增加 &a%placeholder%%"
 placeholder: "%level% * 12.5"
 type: normal
 
@@ -17,5 +17,3 @@ effects:
   - id: food_multiplier
     args:
       multiplier: "1 * %level% * 0.125"
-
-conditions: [ ]

@@ -1,5 +1,5 @@
-display-name: "Wyvern"
-description: "Gives a &a%placeholder%%&r bonus to melee damage"
+display-name: "翼刃"
+description: "增加 &a%placeholder%%&r 的近战伤害"
 placeholder: "10 * %level%"
 type: normal
 

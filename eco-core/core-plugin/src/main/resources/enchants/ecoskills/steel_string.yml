@@ -1,5 +1,5 @@
-display-name: "Steel String"
-description: "Gives &a+%placeholder%&r %ecoskills_strength_name%"
+display-name: "钢弦"
+description: "赋予 &a+%placeholder%&r 的 %ecoskills_strength_name%"
 placeholder: "3 + 2 * %level%"
 type: normal
 

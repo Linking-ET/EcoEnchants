@@ -1,5 +1,5 @@
-display-name: "Repairing"
-description: "Automatically gain &a%amount%&r durability every &a%frequency% &rseconds"
+display-name: "耐久修复"
+description: "每 &a%frequency%&r 秒自动获得 &a%amount%&r 耐久度"
 type: special
 placeholders:
   frequency: "1.5"
@@ -18,6 +18,6 @@ enchantable: true
 
 conditions: [ ]
 
-repair-per-level: 1 # The amount of durability to add on each item
-frequency: 30 # How often to repair the item (in ticks, doesn't support %level%)
-not-while-holding: true # If items shouldn't be repaired while they are being held
+repair-per-level: 1 # 每个物品增加的耐久度
+frequency: 30 # 修复物品的频率（tick为单位，不支持%level%）
+not-while-holding: true # 如果物品在手持时不应该被修复

@@ -1,5 +1,5 @@
-display-name: "Chemist"
-description: "Gives a &a%placeholder%%&r boost to Alchemy experience"
+display-name: "炼金术士"
+description: "提高 &a%placeholder%%&r 的炼金术经验加成"
 placeholder: "12.5 * %level%"
 type: normal
 

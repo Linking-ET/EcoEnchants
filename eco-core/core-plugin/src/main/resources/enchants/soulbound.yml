@@ -1,5 +1,5 @@
-display-name: "Soulbound"
-description: "Keep this item on death"
+display-name: "灵魂绑定"
+description: "死亡时保留此物品"
 type: special
 
 targets:
@@ -14,4 +14,4 @@ enchantable: true
 
 conditions: [ ]
 
-single-use: false # If soulbound should be removed from the items after death
+single-use: false # 灵魂绑定是否应该在物品死亡后从物品中移除
